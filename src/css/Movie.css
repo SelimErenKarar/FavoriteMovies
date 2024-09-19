@@ -1,0 +1,32 @@
+.movie-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.movie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.movie img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+}
+
+.movie .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

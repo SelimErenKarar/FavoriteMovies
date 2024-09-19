@@ -3,16 +3,8 @@ import React from 'react'
 function Movie({ movie }) {
     const { title, year, director, description, link, image } = movie;
     return (
-        <div className='movie' style={{
-            display: 'flex',
-            flexDirection: 'row',
-            alignItems: 'center',
-            padding: '20px',
-            margin: '20px',
-            border: '1px solid black',
-            borderRadius: '10px'
-        }}>
-            <img src={image} width={200} height={300} />
+        <div className='movie'>
+            <img src={image} />
             <div className='movie-info' style={{
                 marginLeft: '30px',
             }}>
